@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Privacy Policy - Elastix</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --subtext-color: #64748b;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #60a5fa;
+                --text-color: #f1f5f9;
+                --bg-color: #0f172a;
+                --card-bg: #1e293b;
+                --border-color: #334155;
+                --subtext-color: #94a3b8;
+            }
+        }
+
+        body.dark {
+            --primary-color: #60a5fa;
+            --text-color: #f1f5f9;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --border-color: #334155;
+            --subtext-color: #94a3b8;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 { font-size: 2rem; margin-bottom: 8px; color: var(--primary-color); }
+        h2 { font-size: 1.35rem; margin-top: 32px; padding-bottom: 8px; border-bottom: 1px solid var(--border-color); }
+        h3 { font-size: 1.1rem; margin-top: 20px; }
+        p, li { font-size: 0.95rem; }
+        ul { padding-left: 20px; }
+        .meta-info { font-size: 0.85rem; color: var(--subtext-color); margin-bottom: 24px; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; background-color: var(--border-color); margin-right: 6px; }
+        a { color: var(--primary-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy for Elastix</h1>
+    <div class="meta-info">
+        <strong>Developer:</strong> Chris Chui |
+        <strong>Effective Date:</strong> September 1, 2026
+    </div>
+
+    <p>This Privacy Policy applies to the <strong>Elastix</strong> mobile application created by Chris Chui as an individual developer. This Policy explains how information is handled across different editions of the App.</p>
+
+    <h3>1. Free Edition vs. Pro Edition</h3>
+    <ul>
+        <li><span class="badge">Pro Edition</span> <strong>100% Offline & Private:</strong> The Pro edition does not require or use network permissions. It does not collect, store, transmit, or share any personal data or usage metrics whatsoever.</li>
+        <li><span class="badge">Free Edition</span> <strong>Supported by Ads & Analytics:</strong> The Free edition utilizes third-party SDKs that require internet access to serve advertisements and gather anonymized app diagnostics and usage analytics.</li>
+    </ul>
+
+    <h3>2. Data Handling & Non-Collection</h3>
+    <p>As the developer, Chris Chui does not directly collect, store, process, or harvest any personally identifiable information (such as your name, address, or phone number).</p>
+
+    <h3>3. Third-Party SDK Services (Free Edition Only)</h3>
+    <p>The Free edition uses third-party services that may collect device identifiers and technical metrics to perform their services:</p>
+    <ul>
+        <li><strong>Google Mobile Ads (AdMob):</strong> Displays advertisements and may use device Advertising IDs to serve non-personalized or personalized ads. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+        <li><strong>Firebase Analytics & Crashlytics:</strong> Collects aggregated, non-personally identifiable usage metrics (e.g., feature usage, session duration) and automated crash logs (e.g., stack traces, device model, OS version) to help fix software bugs and improve stability. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
+    </ul>
+
+    <h3>4. System Permissions Usage</h3>
+    <p>Elastix requests system permissions solely to operate as a local music player:</p>
+    <ul>
+        <li><strong>Storage / Media Access (READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE):</strong> Used exclusively to scan, index, and play audio files stored on your local device. Media metadata is processed entirely on-device and is <strong>never uploaded to any server</strong>.</li>
+        <li><strong>Foreground Service (FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK):</strong> Used strictly to keep audio playing smoothly in the background and display media notification controls.</li>
+    </ul>
+
+    <h3>5. Children's Privacy</h3>
+    <p>Elastix does not knowingly collect personal information from children under 13 years of age.</p>
+
+    <h3>6. Contact Information</h3>
+    <p>If you have any questions regarding this Privacy Policy, please contact:</p>
+    <p><strong>Email:</strong> <a href="mailto:ccplayconsole@gmail.com">ccplayconsole@gmail.com</a></p>
+</div>
+
+</body>
+</html>
